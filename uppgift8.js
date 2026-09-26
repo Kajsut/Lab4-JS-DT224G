@@ -8,10 +8,12 @@ function book(title , author , year){
     this.year = year;
     
     this.presentation = function (){
-    console.log(`Titel: ${title}\n
-                Författare: ${author}\n
-                Utgivningsår: ${year}`);
+    console.log(`Titel: ${title}`);
+    console.log(`Författare: ${author}`);
+    console.log(`Utgivningsår: ${year}`);
     }
 }
 
 const book1 = new book ("Heartless Hunter", "Kristen Ciccarelli", 2024)
+
+book1.presentation();
