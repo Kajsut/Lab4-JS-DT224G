@@ -8,3 +8,7 @@ let food = ["Tacos","Sushi","Carbonara","Halv special","Pumpapaj"];
 for (let i = 0; i < food.length; i++){
     console.log(food[i]);
 }
+
+//Skriver ut det första elementet
+console.log(food[0]);
+
