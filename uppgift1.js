@@ -7,11 +7,6 @@ let lastName = "Widén";
 let age = "23";
 let student = true;
 
-console.log(firstName);
-console.log(lastName);
-console.log(age);
-console.log(student);
-
 console.log(firstName +` `+ lastName);
 console.log(`Ålder: ` + age);
 console.log(`Student: ` + student)
