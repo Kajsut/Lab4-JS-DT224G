@@ -2,6 +2,13 @@
 Lagrar pris och antal produkter */
 "use strict";
 
-const price = 100;
-const howMany = 3;
+let price = 100;
+let howMany = 3;
 
+//Uträkning, hur mycket är totalpriset
+let allTogether = price * howMany;
+
+
+
+
+console.log(allTogether);
