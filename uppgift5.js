@@ -17,3 +17,6 @@ console.log(food[4]);
 
 //Lägger till en ny maträtt sist i arrayen
 food.push("Lax i citronsås");
+
+//ta bort föra maträtten i arrayen
+food.shift();
