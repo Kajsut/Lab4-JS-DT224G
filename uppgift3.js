@@ -2,7 +2,7 @@
 Använder if-sats för att dela in en ålder i olika grupper */
 "use strict"
 
-let age = 65;
+let age = 17;
 
 if (age < 18){
     console.log("Barn");
