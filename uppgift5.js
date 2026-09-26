@@ -12,3 +12,5 @@ for (let i = 0; i < food.length; i++){
 //Skriver ut det första elementet
 console.log(food[0]);
 
+//Skriver ut det sista elementet
+console.log(food[4]);
