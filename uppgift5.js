@@ -18,5 +18,10 @@ console.log(food[4]);
 //Lägger till en ny maträtt sist i arrayen
 food.push("Lax i citronsås");
 
-//ta bort föra maträtten i arrayen
+//Ta bort föra maträtten i arrayen
 food.shift();
+
+//Skriver ut hela den nya arrayen
+for (let i = 0; i < food.length; i++){
+    console.log(food[i]);
+}
