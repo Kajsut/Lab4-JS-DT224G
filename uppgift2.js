@@ -12,4 +12,9 @@ let allTogether = price * howMany;
 let withMoms = allTogether * 1.25;
 
 
-console.log(withMoms);
+console.log(`Pris: ` + price + ` kr`);
+console.log(`Antal: ` + howMany);
+console.log(`Totalt: ` + allTogether + ` kr`);
+console.log(`Totalt inklusive moms: ` + withMoms + ` kr`);
+
+
