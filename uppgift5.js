@@ -14,3 +14,6 @@ console.log(food[0]);
 
 //Skriver ut det sista elementet
 console.log(food[4]);
+
+//Lägger till en ny maträtt sist i arrayen
+food.push("Lax i citronsås");
