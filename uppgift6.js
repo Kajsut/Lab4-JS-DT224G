@@ -7,3 +7,7 @@ function calculateArea (width , height){
     let area = width * height;
     return area;
 }
+
+
+console.log("Arean är " + calculateArea(8 , 6));
+console.log(`Arean är ${calculateArea(4 , 3)}`);
