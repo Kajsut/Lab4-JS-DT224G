@@ -9,4 +9,4 @@ let student = true;
 
 console.log(firstName +` `+ lastName);
 console.log(`Ålder: ` + age);
-console.log(`Student: ` + student)
+console.log(`Student: ` + student);
