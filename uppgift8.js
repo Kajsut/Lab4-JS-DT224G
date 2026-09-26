@@ -6,4 +6,9 @@ function book(title , author , year){
     this.title = title;
     this.author = author;
     this.year = year;
+
+    console.log(`Titel: ${title}\n
+                Författare: ${author}\n
+                Utgivningsår: ${year}`);
+    
 }
