@@ -9,6 +9,6 @@ function calculateArea (width , height){
 }
 
 
-console.log("Arean är " + calculateArea(8 , 6));
+console.log(`Arean är ${calculateArea(8 , 6)}`);
 console.log(`Arean är ${calculateArea(4 , 3)}`);
 console.log(`Arean är ${calculateArea(47 , 32)}`);
