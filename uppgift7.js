@@ -6,11 +6,11 @@ let numbers = ["52","13","78","24","56","26"];
 
 function numbersSum(numbers){
     let newSum = 0;
-    
+
     for (let i = 0; i < numbers.length; i++){
-         newSum += numbers[i];
+         newSum = newSum + numbers[i];
     }
-    return newSum;
-    
+    return newSum; 
 }
 
+console.log("Summan är "+ (numbersSum(numbers)));
