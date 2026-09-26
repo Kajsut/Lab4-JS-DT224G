@@ -6,11 +6,12 @@ function book(title , author , year){
     this.title = title;
     this.author = author;
     this.year = year;
-
+    
+    this.presentation = function (){
     console.log(`Titel: ${title}\n
                 Författare: ${author}\n
                 Utgivningsår: ${year}`);
-    
+    }
 }
 
 const book1 = new book ("Heartless Hunter", "Kristen Ciccarelli", 2024)
