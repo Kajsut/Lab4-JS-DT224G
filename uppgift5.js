@@ -3,3 +3,8 @@ Skriver ut olika delar av en array var för sig */
 "use strict"
 
 let food = ["Tacos","Sushi","Carbonara","Halv special","Pumpapaj"];
+
+//Skriv ut hela arrayen
+for (let i = 0; i < food.length; i++){
+    console.log(food[i]);
+}
