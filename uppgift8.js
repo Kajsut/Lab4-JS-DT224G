@@ -12,3 +12,5 @@ function book(title , author , year){
                 Utgivningsår: ${year}`);
     
 }
+
+const book1 = new book ("Heartless Hunter", "Kristen Ciccarelli", 2024)
