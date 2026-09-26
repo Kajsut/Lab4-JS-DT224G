@@ -8,6 +8,7 @@ for (let i = 1; i <= 20; i++){
 }
 */
 
+//Jämna tal mellan 1-20 skrivs ut på skärmen
 for (let i = 1; i <= 20; i++){
     if (i % 2 === 0){
         console.log(i);
