@@ -20,9 +20,10 @@ const people = [
     }
 ];
 
-
+//Loopar igenom hela arrayen
 for ( let i = 0; i < people.length; i++ ){
 
+    //Räknar ut om personen är myndig eller ej, och skriver ut detta
     if (people[i].age < 18){
         console.log(`${people[i].name} bor i ${people[i].city} och är inte myndig.`);
     } else {
