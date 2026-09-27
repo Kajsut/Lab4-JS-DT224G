@@ -22,7 +22,7 @@ const people = [
 
 //Loopar igenom hela arrayen
 for ( let i = 0; i < people.length; i++ ){
-    checkAge(people[i])
+    checkAge(people[i]);
 }
 
 //Räknar ut om personen är myndig eller ej och skriver ut detta
