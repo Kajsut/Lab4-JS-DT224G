@@ -1,5 +1,5 @@
 /* Uppgift 2, av Kajsa Widén
-Lagrar pris och antal produkter */
+Lagrar pris och antal produkter, räknar pris med och utan moms, och skriver ut detta på skärmen */
 "use strict";
 
 let price = 100;
