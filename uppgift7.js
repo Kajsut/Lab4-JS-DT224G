@@ -14,4 +14,5 @@ function numbersSum(numbers){
     return newSum; 
 }
 
+//Skriver ut på skärmen
 console.log("Summan är "+ (numbersSum(numbers)));
