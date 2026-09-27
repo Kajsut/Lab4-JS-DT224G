@@ -4,9 +4,10 @@ Skapar variabler om en person och skriver ut detta på skärmen. */
 
 let firstName = "Kajsa";
 let lastName = "Widén";
-let age = "23";
+let age = 23;
 let student = true;
 
+//Skriver ut till skärmen
 console.log(firstName +` `+ lastName);
 console.log(`Ålder: ` + age);
 console.log(`Student: ` + student);
