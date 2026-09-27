@@ -1,5 +1,5 @@
 /* Uppgift 5, av Kajsa Widén
-Skriver ut olika delar av en array var för sig */
+Skriver ut, tar bort och lägger till olika delar av en array var för sig */
 "use strict"
 
 let food = ["Tacos","Sushi","Carbonara","Halv special","Pumpapaj"];
@@ -18,7 +18,7 @@ console.log(food[4]);
 //Lägger till en ny maträtt sist i arrayen
 food.push("Lax i citronsås");
 
-//Ta bort föra maträtten i arrayen
+//Ta bort första maträtten i arrayen
 food.shift();
 
 //Skriver ut hela den nya arrayen
