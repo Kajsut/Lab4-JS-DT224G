@@ -5,6 +5,7 @@ Detta programet räknar ut arean av en rektangel */
 //Räknar ut arean på en rektagel - arrow function
 let calculateArea = (width , height) => width * height;
 
+//Skriver ut på skärmen
 console.log(`Arean är ${calculateArea(8 , 6)}`);
 console.log(`Arean är ${calculateArea(4 , 3)}`);
 console.log(`Arean är ${calculateArea(47 , 32)}`);
