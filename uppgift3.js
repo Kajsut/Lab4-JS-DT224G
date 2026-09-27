@@ -4,6 +4,7 @@ Använder if-sats för att dela in en ålder i olika grupper */
 
 let age = 17;
 
+//Räknar ut om det är barn, vuxen eller pensionär
 if (age < 18){
     console.log("Barn");
 } else if (age >= 18 && age <=64){
