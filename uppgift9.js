@@ -23,4 +23,12 @@ const people = [
 
 for ( let i = 0; i < people.length; i++ ){
     console.log(people[i]);
+
+    if (people[i].age < 18){
+        console.log(`${people[i].name} bor i ${people[i].city} och är inte myndig.`);
+    } else {
+        console.log(`${people[i].name} bor i ${people[i].city} och är myndig.`);
+    }
+
 }
+
