@@ -11,7 +11,7 @@ let allTogether = price * howMany;
 //Uträkning, med moms
 let withMoms = allTogether * 1.25;
 
-
+//Skriver ut uppgifterna på skärmen
 console.log(`Pris: ` + price + ` kr`);
 console.log(`Antal: ` + howMany);
 console.log(`Totalt: ` + allTogether + ` kr`);
